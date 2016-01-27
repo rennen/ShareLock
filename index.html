@@ -55,18 +55,19 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" dir="rtl">
-                    <li>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li order="3">
                         <a class="page-scroll" href="#join">הצטרפות לנבחרת</a>
                     </li>
-                    <li>
+                    <li order="2">
                         <a class="page-scroll" href="#about">מי אנחנו</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#whyjoin">למה כדאי להצטרף?</a>
-                    </li>
-                    <li>
+                    <li order="1">
                         <a class="page-scroll" href="#howitworks">איך הכל עובד?</a>
+                    </li>
+                    <li order="0">
+                        <a class="page-scroll" href="#whyjoin">למה כדאי להצטרף?</a>
                     </li>
                 </ul>
             </div>
@@ -80,26 +81,11 @@
             <div class="header-content-inner">
                 <h1 style="font-family: 'Montserrat', sans-serif">ShareLock</h1>
                 <hr>
-                <p>תובנות בשוק ההון מבוססות חכמת ההמונים</p>
+                <p>לנצח את השוק בעזרת חכמת ההמונים</p>
                 <a href="#join" class="btn btn-primary btn-xl page-scroll">הצטרפות לנבחרת</a>
 			</div>
         </div>
     </header>
-
-    <section id="howitworks" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">איך הכל עובד?</h2>
-                    <hr class="primary">
-
-					<p>1. מצטרפים</p>
-					<p>2. עונים על שאלות</p>
-					<p>3. כולם מרוויחים</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 <!--
     <section class="no-padding" id="whyjoin">
@@ -200,13 +186,14 @@
     </section>
 -->
 
-    <section id="whyjoin">
+    <section id="whyjoin" class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
 
 				<h2 class="section-heading">למה כדאי להצטרף?</h2>
 				<hr class="primary">
-				<p>כל מי שיצטרף למיזם יהיה חלק מקבוצה סגורה של אנשים אשר יקבלו גישה למידע ותובנות המבוססים על התובנה הקולקטיבית של כל חברי הקבוצה. ידע זה כוח ואנחנו כאן כדי לייצר ידע רב ערך תוך שימוש באלגוריתם ShareLock Crowd Prediction ייחודי שאנו מפתחים.</p>
+
+				<p>מי שיצטרף יהיה חלק מנבחרת שתקבל גישה למידע בשוק ההון המבוסס על התבונה הקולקטיבית של כל חברי הנבחרת.<br/>ידע זה כוח ואנחנו כאן כדי לייצר ידע רב ערך תוך שימוש בחכמת ההמונים, החכמה שלכם.</p>
 				
 				<div class="container">
 					<div class="row">
@@ -244,6 +231,21 @@
 				<br>
 				<br>
 				<a href="#" class="btn btn-primary btn-xl wow">הצטרפות לנבחרת</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="howitworks">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">איך הכל עובד?</h2>
+                    <hr class="primary">
+
+					<p>1. מצטרפים</p>
+					<p>2. עונים על שאלות</p>
+					<p>3. כולם מרוויחים</p>
+                </div>
             </div>
         </div>
     </section>
@@ -304,6 +306,12 @@
             </div>
         </div>
     </section>
+
+    <!-- This helps us detect on which device we are at -->
+    <div class="device-xs visible-xs"></div>
+    <div class="device-sm visible-sm"></div>
+    <div class="device-md visible-md"></div>
+    <div class="device-lg visible-lg"></div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
