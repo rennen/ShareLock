@@ -4,44 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-var viewport = 'M';
-
-function fixRTL() {
-
-    var newViewport = null;
-    if ($('.device-xs').is(':visible')) { newViewport = 'XS'; }
-    if ($('.device-sm').is(':visible')) { newViewport = 'S'; }
-    if ($('.device-md').is(':visible')) { newViewport = 'M'; }
-    if ($('.device-lg').is(':visible')) { newViewport = 'L'; }
-
-    if (viewport == null || newViewport == null || viewport == newViewport) {
-        return;
-    }
-
-    // Navbar in the collapsed version is top-to-bottom, so should be reversed
-    var navbar = $('.navbar-right');
-
-    if (newViewport == 'XS') {
-        // Inverse the order
-        navbar.children('li').sort(function(left,right) {
-            return $(left).order < $(right).order;
-        }).each(function() {
-            navbar.prepend(this)
-        });
-    }
-
-    if (newViewport != 'XS' && viewport == 'XS') {
-        // Normal order
-        navbar.children('li').sort(function(left,right) {
-            return $(left).order > $(right).order;
-        }).each(function() {
-            navbar.prepend(this)
-        });
-    }
-
-    viewport = newViewport;
-};
-
 (function($) {
     "use strict"; // Start of use strict
 
@@ -79,14 +41,6 @@ function fixRTL() {
             top: 100
         }
     })
-
-    $(window).resize( function () {
-        fixRTL();
-    });
-
-    $(window).load(function() {
-        fixRTL();
-    });
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
