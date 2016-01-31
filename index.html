@@ -17,17 +17,22 @@
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Alef&subset=hebrew,latin' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alef&subset=hebrew,latin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+
+    <!-- Social networks icons -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/social.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,57 +101,100 @@
                 <hr>
                 <p>לנצח את השוק בעזרת חכמת ההמונים</p>
                 <a href="#join" class="btn btn-primary btn-xl page-scroll">הצטרפות לנבחרת</a>
-			</div>
+            </div>
         </div>
     </header>
 
-    <section id="whyjoin" class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
+    <section id="whyjoin">
+        <!--
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">למה כדאי להצטרף?</h2>
+                    <hr class="primary">
 
-				<h2 class="section-heading">למה כדאי להצטרף?</h2>
-				<hr class="primary">
+                    <p>מי שיצטרף יהיה חלק מנבחרת שתקבל גישה למידע בשוק ההון המבוסס על התבונה הקולקטיבית של כל חברי הנבחרת.<br/>ידע זה כוח ואנחנו כאן כדי לייצר ידע רב ערך תוך שימוש בחכמת ההמונים, החכמה שלכם.</p>
 
-				<p>מי שיצטרף יהיה חלק מנבחרת שתקבל גישה למידע בשוק ההון המבוסס על התבונה הקולקטיבית של כל חברי הנבחרת.<br/>ידע זה כוח ואנחנו כאן כדי לייצר ידע רב ערך תוך שימוש בחכמת ההמונים, החכמה שלכם.</p>
-				
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>לנצח את השוק</h3>
-                            <p class="text-muted">באמצעות שימוש בחוכמת ההמונים, ביחד נשיג תשואה גבוהה יותר.</p>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 pull-right text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                                <h3>לנצח את השוק</h3>
+                                <p class="text-muted">באמצעות שימוש בחוכמת ההמונים, ביחד נשיג תשואה גבוהה יותר.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 pull-right text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-random wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                                <h3>משנים את חוקי המשחק</h3>
+                                <p class="text-muted">ניצור מכשירים פיננסיים חכמים ומתקדמים יותר מקרנות הון מסורתיות.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 pull-right text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                                <h3>להישאר מחובר</h3>
+                                <p class="text-muted">הישאר מחובר ומעודכן לדופק של שוק ההון ולתובנות חברי הנבחרת.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 pull-right text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-group wow bounceIn text-primary"></i>
+                                <h3>נבחרת מנצחת</h3>
+                                <p class="text-muted">השותפים בנבחרת הם אנשי שוק ההון שנבחרו בקפידה והם מומחים בתחומם.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-random wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                            <h3>משנים את חוקי המשחק</h3>
-                            <p class="text-muted">ניצור מכשירים פיננסיים חכמים ומתקדמים יותר מקרנות הון מסורתיות.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                            <h3>להישאר מחובר</h3>
-                            <p class="text-muted">הישאר מחובר ומעודכן לדופק של שוק ההון ולתובנות חברי הנבחרת.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 text-center">
-                        <div class="service-box">
+                    <br>
+                    <br>
+                    <a href="#" class="btn btn-primary btn-xl wow">הצטרפות לנבחרת</a>
+                </div>
+            </div>
+        </div>
+-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">למה כדאי להצטרף?</h2>
+                    <hr class="primary">
+
+                    <p>מי שיצטרף יהיה חלק מנבחרת שתקבל גישה למידע בשוק ההון המבוסס על התבונה הקולקטיבית של כל חברי הנבחרת.
+                        <br/>ידע זה כוח ואנחנו כאן כדי לייצר ידע רב ערך תוך שימוש בחכמת ההמונים, החכמה שלכם.</p>
+
+
+                    <div class="row">
+
+                        <div class="col-md-3 pull-right-md pull-right-lg">
                             <i class="fa fa-4x fa-group wow bounceIn text-primary"></i>
                             <h3>נבחרת מנצחת</h3>
                             <p class="text-muted">השותפים בנבחרת הם אנשי שוק ההון שנבחרו בקפידה והם מומחים בתחומם.</p>
                         </div>
+                        <div class="col-md-3 pull-right-md pull-right-lg">
+                            <i class="fa fa-4x fa-calendar wow bounceIn text-primary"></i>
+                            <h3>להישאר מחובר</h3>
+                            <p class="text-muted">הישאר מחובר ומעודכן לדופק של שוק ההון ולתובנות חברי הנבחרת.</p>
+                        </div>
+
+                        <div class="col-md-3 pull-right-md pull-right-lg">
+                            <i class="fa fa-4x fa-random wow bounceIn text-primary"></i>
+                            <h3>משנים את חוקי המשחק</h3>
+                            <p class="text-muted">ניצור מכשירים פיננסיים חכמים ומתקדמים יותר מקרנות הון מסורתיות.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-4x fa-line-chart wow bounceIn text-primary"></i>
+                            <h3>לנצח את השוק</h3>
+                            <p class="text-muted">באמצעות שימוש בחוכמת ההמונים, ביחד נשיג תשואה גבוהה יותר.</p>
+                        </div>
                     </div>
-				</div>
-				<br>
-				<br>
-				<a href="#" class="btn btn-primary btn-xl wow">הצטרפות לנבחרת</a>
+                    <br>
+                    <br>
+                    <a href="#" class="btn btn-primary btn-xl wow">הצטרפות לנבחרת</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="howitworks">
+    <section id="howitworks" class="bg-info">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -155,21 +203,25 @@
 
                     <div class="row">
 
-                        <div class="col-md-4 pull-right">
-                            <h2>1. מצטרפים</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                        <div class="col-md-4 pull-right-md pull-right-lg">
+                            <i class="fa fa-4x fa-user-plus wow bounceIn text-primary"></i>
+                            <h3>1. מצטרפים</h3>
+                            <p class="text-muted">מצטרפים לנבחרת מנצחת של אנשי שוק ההון אשר מומחים בתחומם.</p>
                         </div>
-                        <div class="col-md-4 pull-right">
-                            <h2>2. עונים על שאלות</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                        <div class="col-md-4 pull-right-md pull-right-lg">
+                            <i class="fa fa-4x fa-comment-o wow bounceIn text-primary"></i>
+                            <h3>2. עונים על שאלות</h3>
+                            <p class="text-muted">אחת למספר ימים עונים על כמה שאלות קצרות בנושאי שוק ההון.</p>
                         </div>
 
                         <div class="col-md-4">
-                            <h2>3. תובנות</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+                            <i class="fa fa-4x fa-lightbulb-o wow bounceIn text-primary"></i>
+                            <h3>3. תובנות</h3>
+                            <p class="text-muted">התובנות הקולקיביות משותפות בין כל חברי הנבחרת.</p>
                         </div>
                     </div>
 
+                </div>
             </div>
         </div>
     </section>
@@ -177,47 +229,86 @@
     <section id="about" class="bg-dark">
         <div class="container">
             <div class="row" dir="rtl">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-8 col-lg-offset-2 text-center ">
                     <h2 class="section-heading">מי אנחנו</h2>
                     <hr class="primary">
                     <p>אנחנו קבוצה של אנשי מקצוע עם ניסיון של שנים רבות בשוק ההון, פיתוח טכנולוגיות לגופים פיננסים הגדולים בעולם בשילוב מחקר פורץ דרך בתחום חכמת המונים.</p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 text-center">
-                    <img style="max-height:110px;"  src="https://static.wixstatic.com/media/514223_db31e66460e64d688cea8891e104e6ec.jpg/v1/fill/w_92,h_119,al_c,q_75,usm_0.50_1.20_0.00/514223_db31e66460e64d688cea8891e104e6ec.jpg" data-wow-delay=".2s"/>
-					<h3>אמיר איל</h3>
+                <div class="col-lg-3 col-md-6 text-center pull-right-md pull-right-lg">
+                    <img style="max-height:110px;" src="https://static.wixstatic.com/media/514223_0b2edbca7b3d485daa5eb2d568efa6ce.png/v1/fill/w_93,h_130,al_c,usm_0.50_1.20_0.00/514223_0b2edbca7b3d485daa5eb2d568efa6ce.png" />
+                    <h3>ליאור צורף</h3>
+                    <p>מומחה בעל שם עולמי לחוכמת ההמונים</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center pull-right-md pull-right-lg">
+                    <img style="max-height:110px;" src="https://static.wixstatic.com/media/514223_db31e66460e64d688cea8891e104e6ec.jpg/v1/fill/w_92,h_119,al_c,q_75,usm_0.50_1.20_0.00/514223_db31e66460e64d688cea8891e104e6ec.jpg" data-wow-delay=".2s" />
+                    <h3>אמיר איל</h3>
                     <p>מנכ"ל ומייסד אינפיניטי, בית השקעות</p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 text-center">
-                    <img style="max-height:110px;"  src="https://static.wixstatic.com/media/514223_db31e66460e64d688cea8891e104e6ec.jpg/v1/fill/w_92,h_119,al_c,q_75,usm_0.50_1.20_0.00/514223_db31e66460e64d688cea8891e104e6ec.jpg" data-wow-delay=".2s"/>
-					<h3>אמיר איל</h3>
-                    <p>מנכ"ל ומייסד אינפיניטי, בית השקעות</p>
-                </div>
-
-				<div class="col-lg-3 col-md-6 text-center">
-                    <img style="max-height:110px;" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/0b0/33c/039e346.jpg" data-wow-delay=".1s"/>
-					<h3>רונן קרטיס</h3>
+                <div class="col-lg-3 col-md-6 text-center pull-right-md pull-right-lg">
+                    <img style="max-height:110px;" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/0b0/33c/039e346.jpg" data-wow-delay=".1s" />
+                    <h3>רונן קרטיס</h3>
                     <p>מייסד ומנכ"ל קפיטק, בוטיק טכנולוגי פיננסי</p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 text-center">
-                    <img style="max-height:110px;"  src="https://static.wixstatic.com/media/514223_0b2edbca7b3d485daa5eb2d568efa6ce.png/v1/fill/w_93,h_130,al_c,usm_0.50_1.20_0.00/514223_0b2edbca7b3d485daa5eb2d568efa6ce.png"/>
-					<h3>ליאור צורף</h3>
-                    <p>מומחה בעל שם עולמי לחוכמת ההמונים</p>
+                <div class="col-lg-3 col-md-6 text-center pull-right-md pull-right-lg">
+                    <img style="max-height:110px;" src="https://static.wixstatic.com/media/514223_6dc87cd5c2e744d6b4e76df1335cef6c.jpg/v1/fill/w_92,h_119,al_c,q_80,usm_0.66_1.00_0.01/514223_6dc87cd5c2e744d6b4e76df1335cef6c.jpg" data-wow-delay=".2s" />
+                    <h3>בני איל</h3>
+                    <p>מנכ"ל וסגן יו"ר קבוצת אינפיניטי</p>
                 </div>
+
             </div>
         </div>
     </section>
-	
-    <section class="bg-primary" id="join">
+
+    <section id="join">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">הצטרפות לנבחרת</h2>
-                    <hr class="light">
-                    <p>הצטרפו לנבחרת כדי לקחת חלק במיזם פורץ דרך שמשנה את כללי המשחק בשוק ההון.</p>
-                    <a href="#" class="btn btn-default btn-xl">הצטרפות לנבחרת</a>
+                    <hr class="primary">
+                    <!--                    <a href="#" class="btn btn-default btn-xl" onclick="showJoinPopup();">הצטרפות לנבחרת</a>-->
+
+                    <div class="form-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn;">
+
+                        <div class="form-top">
+                            <div class="form-top-left">
+                                <p>הצטרפו לנבחרת כדי לקחת חלק במיזם פורץ דרך שמשנה את כללי המשחק בשוק ההון.</p>
+                            </div>
+                            <div class="form-top-right">
+                                <span aria-hidden="true" class="typcn typcn-pencil"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-bottom">
+                            <form role="form" action="" method="post" _lpchecked="1">
+
+                                <div class="form-group col-md-6 pull-right-md pull-right-lg">
+                                    <label class="sr-only" for="form-about-yourself">קצת על עצמך</label>
+                                    <textarea name="form-about-yourself" rows="9" placeholder="קצת על עצמך..." class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+                                </div>
+
+                                <div class="form-group col-md-6" dir=ltr>
+
+                                    <a href="#" class="btn azm-social azm-btn azm-facebook"><i class="fa fa-facebook"></i>
+                                        <span dir="rtl">הרשמה באמצעות Facebook</span>
+                                    </a>
+
+                                    <a href="#" class="btn azm-social azm-btn azm-google"><i class="fa fa-google"></i>
+                                        <span dir="rtl">הרשמה באמצעות Google+</span>
+                                    </a>
+
+                                    <a href="#" class="btn azm-social azm-btn azm-linkedin"><i class="fa fa-linkedin"></i>
+                                        <span dir="rtl">הרשמה באמצעות LinkedIn</span>
+                                    </a>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -239,6 +330,9 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+
+    <!-- Alerts -->
+    <script src="js/sweetalert.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>

@@ -11,12 +11,13 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
     max-width: 50px;
-    border-color: #00D39E; /* #00FF90; */
+    border-color: #00D39E;
+    /* #00FF90; */
     border-width: 3px;
 }
 
@@ -42,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Alef','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 p {
@@ -61,7 +62,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 section {
@@ -77,8 +78,8 @@ aside {
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
-    font-family: 'Alef','Open Sans','Helvetica Neue',Arial,sans-serif;
+    border-color: rgba(34, 34, 34, .05);
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -87,7 +88,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     /* text-transform: uppercase; */
-    font-family: 'Alef','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 500;
     color: #00D39E;
 }
@@ -123,50 +124,41 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: rgba(255, 255, 255, .3);
         background-color: transparent;
     }
-
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255, 255, 255, .7);
     }
-
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
     }
-
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.8);
+        color: rgba(255, 255, 255, .8);
     }
-
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
         font-weight: 400;
     }
-
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-color: rgba(34, 34, 34, .05);
         background-color: #fff;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #00D39E;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #eb3812;
     }
-
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
         color: #222;
     }
-
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #00D39E;
@@ -209,14 +201,13 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 @media(min-width:768px) {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -225,13 +216,11 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
@@ -275,7 +264,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(240, 95, 64, .9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -292,7 +281,7 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Alef','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -313,7 +302,6 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
-
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
@@ -442,9 +430,9 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     /* text-transform: uppercase; */
-    font-family: 'Alef','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 300;
-	font-size: 25px;
+    font-size: 25px;
 }
 
 .btn-xl {
@@ -478,11 +466,70 @@ body {
 }
 
 
+/* PUll right extensions */
 
-@media (min-width: @screen-md-min) {
-    .row-rtl {
-        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-            float: right;
-        }
+.pull-right-not-xs,
+.pull-right-not-sm,
+.pull-right-not-md,
+.pull-right-not-lg {
+    float: right;
+}
+
+.pull-left-not-xs,
+.pull-left-not-sm,
+.pull-left-not-md,
+.pull-left-not-lg {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .pull-right-not-xs,
+    .pull-left-not-xs {
+        float: none;
+    }
+    .pull-right-xs {
+        float: right;
+    }
+    .pull-left-xs {
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pull-right-not-sm,
+    .pull-left-not-sm {
+        float: none;
+    }
+    .pull-right-sm {
+        float: right;
+    }
+    .pull-left-sm {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pull-right-not-md,
+    .pull-left-not-md {
+        float: none;
+    }
+    .pull-right-md {
+        float: right;
+    }
+    .pull-left-md {
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pull-right-not-lg,
+    .pull-left-not-lg {
+        float: none;
+    }
+    .pull-right-lg {
+        float: right;
+    }
+    .pull-left-lg {
+        float: left;
     }
 }
