@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -532,4 +532,15 @@ body {
     .pull-left-lg {
         float: left;
     }
+}
+
+.logo {
+    font-family: 'Exo', sans-serif !important;
+}
+
+.footer {
+    font-family: 'open-sans';
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #666;
 }
