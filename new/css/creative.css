@@ -548,3 +548,15 @@ body {
     background-color: #313131 !important;
     color: #A0A0A0;
 }
+
+.logo {
+    font-family: 'Exo', sans-serif !important;
+}
+
+.footer {
+    font-family: 'open-sans';
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #666;
+}
+
