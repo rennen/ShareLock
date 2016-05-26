@@ -200,6 +200,16 @@ h1 {
 	color: #8EB3BF;
 }
 
+@media(max-width:786px) {
+    .title {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+
 .text {
 	color: #1F2447;
 	font-weight: 300;
@@ -207,6 +217,12 @@ h1 {
 
 .alternate_background {
 	background-color: #C4DEE5;
+}
+
+img {
+    margin: auto;
+    float: none;
+    display: table-caption;
 }
 
 @media(min-width:768px) {
