@@ -568,7 +568,6 @@ body {
     }
 }
 
-
 .bg-dark {
     background-color: #1E2447 !important;
 }
@@ -583,15 +582,17 @@ body {
     color: #A0A0A0;
 }
 
+.footer {
+    color: white;
+    background-image: url('../img/footer.png');
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 .logo {
 	font-family: 'Didact Gothic', sans-serif;
 }
 
-.footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #666;
-}
 
 .icon_h3 {
     width: 50%;

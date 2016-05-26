@@ -61,6 +61,10 @@ p {
     background-color: #222;
 }
 
+bg-footer {
+    background-image: url('../img/');
+}
+
 .text-faded {
     color: rgba(255, 255, 255, .7);
 }
